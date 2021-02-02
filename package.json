@@ -1,13 +1,13 @@
 {
   "name": "hz-vue-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{ description }}",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.production=false --port=9991  --progress --config ./webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "webpack --env.production=true --config ./webpack.config.js"
   },
-  "author": "",
+  "author": "{{ author }}",
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "axios": "^0.18.0",
